@@ -1,7 +1,7 @@
 "use client";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import { useRouter } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import Hero from "@/components/layout/Hero";
 import Header from "@/components/layout/Header";
 import Welcomenote from "@/components/homepage/Welcomenote";
@@ -23,8 +23,6 @@ import GetaQuote from "@/components/homepage/GetaQuote";
 import Footer from "@/components/homepage/Footer";
 
 export default function Home({}) {
-  const idd = useRef("get");
-  const pathname = useRouter().pathname;
   const ref = useRef(null);
   const ref2 = useRef(null);
   const inview = useInView(ref, {
@@ -32,7 +30,6 @@ export default function Home({}) {
     margin: "0px 0px -200px 0px",
   });
   const inview2 = useInView(ref2, { once: true, margin: "0px 0px -200px 0px" });
-  const router = useRouter();
 
   const links = [
     {
