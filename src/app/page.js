@@ -1,19 +1,10 @@
 "use client";
-import { useInView } from "framer-motion";
+
 import { useRef } from "react";
-import { usePathname, useRouter } from "next/navigation";
+
 import Hero from "@/components/layout/Hero";
 import Header from "@/components/layout/Header";
 import Welcomenote from "@/components/homepage/Welcomenote";
-import {
-  AboutIcon,
-  BlogIcon,
-  BusinessIcon,
-  ContactIcon,
-  HomeIcon,
-  ProductsIcon,
-  ServicesIcon,
-} from "@/components/icons";
 import Ourmission from "@/components/homepage/Ourmission";
 import Approach from "@/components/homepage/Approach";
 import Services from "@/components/homepage/Services";
