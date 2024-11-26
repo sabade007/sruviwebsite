@@ -1,16 +1,10 @@
 "use client";
-import Image from "next/image";
-import { ThemeSwitch } from "@/components/theme-switch";
-import DesktopNavigation from "@/components/navigation/DesktopNavigation";
-import Headinglayout from "@/components/layout/Headinglayout";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
 import { useRouter } from "next/navigation";
 import Hero from "@/components/layout/Hero";
 import Header from "@/components/layout/Header";
-import { Button } from "@/components/ui/moving-border";
-import Welcomenote from "@/components/homepage/welcomenote";
-import { FloatingDock } from "@/components/ui/floating-dock";
+import Welcomenote from "@/components/homepage/Welcomenote";
 import {
   AboutIcon,
   BlogIcon,
