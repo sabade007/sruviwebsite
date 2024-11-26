@@ -57,7 +57,7 @@ const Header = ({ targetDivRef }) => {
             <div>
               <FacebookIcon className="ml-4 w-6 h-6" />
             </div>
-            <div className="ml-4">
+            {/* <div className="ml-4">
               <Button
                 variant="ghost"
                 fullWidth
@@ -77,7 +77,7 @@ const Header = ({ targetDivRef }) => {
                   <h1 className="text-sm ml-2">My Dashboard</h1>
                 </div>
               </Button>
-            </div>
+            </div> */}
             <div className="ml-4">
               <Button
                 variant="ghost"
@@ -128,7 +128,7 @@ const Header = ({ targetDivRef }) => {
           />
           <div className="flex flex-row items-center">
             <ThemeSwitch />
-            <Button
+            {/* <Button
               variant="ghost"
               fullWidth
               size="lg"
@@ -146,7 +146,7 @@ const Header = ({ targetDivRef }) => {
                 />
                 <h1 className="text-sm ml-2">My Dashboard</h1>
               </div>
-            </Button>
+            </Button> */}
           </div>
         </div>
       </div>
